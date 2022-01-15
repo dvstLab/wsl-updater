@@ -24,7 +24,7 @@ else
 fi
 
 echo '[wsl2]' > ${CONFIG}
-echo "kernel = D:\\\\Users\\\\${USER}\\\\Linux\\\\bzImage" >> ${CONFIG}
+echo "kernel = D:\\\\Linux\\\\bzImage" >> ${CONFIG}
 
 echo "To load the new kernel, execute \"wsl.exe --shutdown\" within Windows to terminate the WSL VM."
 echo "Afterwards, restart your distro."
